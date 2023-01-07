@@ -49,6 +49,9 @@ ram is nothing without it.
 
 *Can I use other audio formats such as mp3?*
 
-Unfortunately **no**. But you can use ffmpeg to do the conversions,
-or any other tools you can find on the internet. It's outside the
-scope of this project.
+Audio decoding and encoding are handled by torchaudio, all supported format are listed 
+[here](https://pytorch.org/audio/stable/backend.html#torchaudio.backend.sox_io_backend.load).
+It's worth noting that .wav support is out of the box, and extra efforts are required
+if you want to use other formats such as .mp3. Please refer to the torchaudio doc. Another way
+to walk around this is to use ffmpeg, or any other tools you can find on the internet that
+can handle conversions between different audio formats. Though it's outside the scope.
