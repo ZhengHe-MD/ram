@@ -12,6 +12,13 @@ Clone this repo:
 $ git clone https://github.com/ZhengHe-MD/ram.git
 ```
 
+Install Python dependencies:
+
+```shell
+# step out of ram directory to go through usages.
+$ cd ram && pip install -r requirements.txt && cd ..
+```
+
 ## Usage
 
 Suppose the current directory contains this repo, basic usages are:
@@ -32,3 +39,16 @@ Checkout full options with the following command:
 ```shell
 $ python ram -h
 ```
+
+## Acknowledgement
+
+Special thanks should be given to the project [snakers4/silero-vad](https://github.com/snakers4/silero-vad).
+ram is nothing without it.
+
+## FAQ
+
+*Can I use other audio formats such as mp3?*
+
+Unfortunately **no**. But you can use ffmpeg to do the conversions,
+or any other tools you can find on the internet. It's outside the
+scope of this project.
