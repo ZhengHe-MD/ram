@@ -6,7 +6,7 @@ A python script that generates repeat-after-me audios for learning languages.
 
 ## Installation
 
-Just clone this repo:
+Clone this repo:
 
 ```shell
 $ git clone https://github.com/ZhengHe-MD/ram.git
@@ -27,7 +27,7 @@ $ python ram path/to/audio.wav --level=hard
 $ python ram path/to/audio.wav --level=medium --output-audio ./audio-medium.wav
 ```
 
-checkout full options with the following command:
+Checkout full options with the following command:
 
 ```shell
 $ python ram -h
