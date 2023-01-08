@@ -2,7 +2,16 @@
 
 ![](https://img.shields.io/badge/python-3.8+-blue.svg)
 
-A python script that generates repeat-after-me audios for learning languages.
+A python script that generates repeat-after-me audios for languages learning purposes.
+
+## Demo
+
+Use the audio from Professor Brian Harvey talking about cheating in class as an example:
+
+* [original](https://raw.githubusercontent.com/ZhengHe-MD/blog/master/source/_posts/repeat-after-me/dont-cheat.mp3)
+* [easy](https://raw.githubusercontent.com/ZhengHe-MD/blog/master/source/_posts/repeat-after-me/dont-cheat-easy.mp3)
+* [medium](https://raw.githubusercontent.com/ZhengHe-MD/blog/master/source/_posts/repeat-after-me/dont-cheat-medium.mp3)
+* [hard](https://raw.githubusercontent.com/ZhengHe-MD/blog/master/source/_posts/repeat-after-me/dont-cheat-hard.mp3)
 
 ## Installation
 
