@@ -54,7 +54,7 @@ $ python ram -h
 
 ## Acknowledgement
 
-Special thanks should be given to the project [snakers4/silero-vad](https://github.com/snakers4/silero-vad).
+Special thanks should be given to the project [silero-vad](https://github.com/snakers4/silero-vad).
 RAM is nothing without it.
 
 ## FAQ
