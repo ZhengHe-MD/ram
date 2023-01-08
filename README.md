@@ -2,8 +2,10 @@
 
 ![](https://img.shields.io/badge/python-3.8+-blue.svg)
 
-RAM stands for Repeat-After-Me. It's a python script that can generate repeat-after-me audios for languages learning purposes
-from any audios. Podcasts, open courses, interviews, documentaries, songs, you name it.
+RAM stands for Repeat-After-Me. It's a python script that can interpolate your audios with blanks that
+let you do repeat-after practice for language learning purposes. You can specify the difficulty level
+of the generated audio. The easier the level, the shorter the segments, the longer the blanks and the
+lower the playing speed. And it supports a high range of languages thanks to the [silero-vad](https://github.com/snakers4/silero-vad) project.
 
 ## Demo
 
